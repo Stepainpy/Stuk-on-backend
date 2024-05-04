@@ -47,3 +47,12 @@ th, td{
     text-align: left;
     padding: 10px;
 }
+
+button {
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
