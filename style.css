@@ -37,15 +37,19 @@ th {
 }
 
 td:not(:first-child) {
-    border-left: #ffffff solid 1px;
+    border-left: #FFF solid 1px;
 }
 
 th, td{
     font-size: 12px;
     font-weight: 700;
-    border-bottom: #ffffff solid 1px;
+    border-bottom: #FFF solid 1px;
     text-align: left;
     padding: 10px;
+}
+
+tr:hover:not(:first-child) {
+    background-color: #C9C9C9;
 }
 
 button {
@@ -55,4 +59,8 @@ button {
     padding: 10px 15px;
     font-size: 14px;
     font-weight: 700;
+}
+
+button:hover {
+    background-color: #C9C9C9;
 }
